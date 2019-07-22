@@ -8,8 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Hello world!
  *
  */
-@SpringBootApplication(scanBasePackages = {"com.imooc.miaoshaproject"})
-@MapperScan("com.imooc.miaoshaproject.dao")
+@SpringBootApplication(scanBasePackages = {"com.nono.miaoshaproject"})
+@MapperScan("com.nono.miaoshaproject.dao")
 public class App {
 
     public static void main( String[] args ) {
